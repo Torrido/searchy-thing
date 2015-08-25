@@ -1,4 +1,4 @@
-// github user finder example
+
 function getGithubInfo(username, callback) {
 	var xhr = new XMLHttpRequest();
 
@@ -14,10 +14,6 @@ function getGithubInfo(username, callback) {
 	
 	xhr.send();
 };;
-
-//$(document).ready(function(){
-	console.log('here')
-//});
 
 function showUser(user){
 	console.log(user);
